@@ -1,15 +1,26 @@
-# EDA on Zomato restaurant dataset
+# EDA on Zomato Restaurant Dataset
 
 **Exploratory Data Analysis of the Zomato restaurant dataset** — performed data cleaning, formatting, and visualization to uncover relationships, trends, and patterns using Python.
 
- ## Dataset
- The dataset is sourced from Kaggle https://www.kaggle.com/datasets/rishikeshkonapure/zomato. It has information about restaurants that is on zomato, like name, cost, location, restuarant type, ratings and more.
+## Dataset
+The dataset is sourced from Kaggle: [Zomato Dataset](https://www.kaggle.com/datasets/rishikeshkonapure/zomato).  
+It contains information about restaurants listed on Zomato, including name, cost, location, restaurant type, ratings, and more.
 
- ## Steps Performed
- - Data loading and inspection
- - Cleaning : deleting redundant columns, renaming columns, duplicate handling, cleaning individual columns, removing Nan values, deriving new columns from existing columns, mapping column values
- - Exploratory Visualizations ( matplotlib, seaborn)
- - Determining top locations based on no. of restaurants,  distribution of rating and cost, relationship between cost and rating
+## Steps Performed
+- Data loading and inspection
+- Data cleaning:
+  - Deleting redundant columns
+  - Renaming columns
+  - Handling duplicates
+  - Cleaning individual columns
+  - Removing NaN values
+  - Deriving new columns from existing ones
+  - Mapping column values
+- Exploratory visualizations using Matplotlib and Seaborn
+- Analysis of:
+  - Top locations based on number of restaurants
+  - Distribution of ratings and cost
+  - Relationship between cost and rating
 
 ## Requirements
 - Python 3.x
@@ -18,3 +29,9 @@
 - matplotlib
 - seaborn
 - jupyter
+
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/poojithasr/EDA-Zomato-restaurant-data.git
+   cd EDA-Zomato-restaurant-data
