@@ -57,8 +57,9 @@ Each record represents a house and its features at the time of sale.
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/yourusername/kc-house-price-prediction.git
-   cd kc-house-price-prediction
+   git clone https://github.com/poojithasr/Data-Science-portfolio.git
+   cd Data-Science-portfolio
+   cd Housing Price Prediction
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
