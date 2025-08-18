@@ -33,6 +33,6 @@ It contains information about restaurants listed on Zomato, including name, cost
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/poojithasr/EDA-Zomato-restaurant-data.git
+   git clone https://github.com/poojithasr/Data-Science-portfolio.git
    cd "EDA Zomato dataset"
 
