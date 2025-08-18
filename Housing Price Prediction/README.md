@@ -59,10 +59,12 @@ Each record represents a house and its features at the time of sale.
    ```bash
    git clone https://github.com/poojithasr/Data-Science-portfolio.git
    cd Data-Science-portfolio
-   cd Housing Price Prediction
+   cd "Housing Price Prediction"
+
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   
 3. Run the Jupyter notebooks:
    ```bash
    jupyter notebook
