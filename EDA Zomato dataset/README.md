@@ -34,5 +34,5 @@ It contains information about restaurants listed on Zomato, including name, cost
 1. Clone the repository:
    ```bash
    git clone https://github.com/poojithasr/EDA-Zomato-restaurant-data.git
-   cd EDA-Zomato-restaurant-data
+   cd "EDA Zomato dataset"
 
