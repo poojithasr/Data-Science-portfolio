@@ -35,7 +35,8 @@ This repository showcases my journey in applying **data analysis, machine learni
 
 1. [Zomato Dataset (Kaggle)](https://www.kaggle.com/datasets/rishikeshkonapure/zomato) – Restaurant data including ratings, cuisines, costs, and locations.  
 2. [King County House Sales Dataset (Kaggle)](https://www.kaggle.com/datasets/shivachandel/kc-house-data/data) – Housing market dataset with 21,000+ records of property sales.
-3. [AB Testing Dataset (Kaggle)] (https://www.kaggle.com/datasets/zhangluyuan/ab-testing/data)
+3. 3. [AB Testing Dataset (Kaggle)](https://www.kaggle.com/datasets/zhangluyuan/ab-testing/data) – E-commerce experiment data including user IDs, group assignments (control/test), conversion flags, and timestamps for conducting A/B tests.
+
 
 ---
 
