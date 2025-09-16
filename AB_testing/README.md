@@ -48,7 +48,9 @@ A large e-commerce company has a new webpage designed with the intention to incr
    ```bash
    jupyter notebook
 
-References
-Dataset: Kaggle AB Testing Dataset
-Statsmodels Documentation
-A/B Testing Methodology
+### References
+
+- Dataset: [Kaggle AB Testing Dataset](https://www.kaggle.com/datasets/zhangluyuan/ab-testing/data)  
+- Statsmodels Documentation: [https://www.statsmodels.org/stable/stats.html](https://www.statsmodels.org/stable/stats.html)  
+- A/B Testing Methodology: [https://en.wikipedia.org/wiki/A/B_testing](https://en.wikipedia.org/wiki/A/B_testing)
+
