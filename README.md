@@ -21,7 +21,7 @@ This repository showcases my journey in applying **data analysis, machine learni
 - **Goal**: To determine the best regularization technique for accurate housing price prediction.  
 - **Dataset**: [King County House Sales Dataset (Kaggle)](https://www.kaggle.com/datasets/shivachandel/kc-house-data/data)
 
-### A/B Testing Analysis on E-Commerce Conversion Rates
+### 3️⃣ A/B Testing Analysis on E-Commerce Conversion Rates
 - Conducted an A/B test to evaluate the effectiveness of a new webpage compared to the existing page on an e-commerce website.
 - Analyzed conversion rates for control and treatment groups using statistical methods including two-proportion z-test, confidence intervals, power analysis, and sample size calculations.
 - Investigated practical significance by comparing observed differences to the chosen Minimum Detectable Effect (MDE = 0.5%).
