@@ -19,14 +19,23 @@ This repository showcases my journey in applying **data analysis, machine learni
 - Conducted **feature engineering and preprocessing** (handling missing values, scaling, encoding).  
 - Compared model performance using metrics like **RMSE** and **R² Score**.  
 - **Goal**: To determine the best regularization technique for accurate housing price prediction.  
-- **Dataset**: [King County House Sales Dataset (Kaggle)](https://www.kaggle.com/datasets/shivachandel/kc-house-data/data)  
+- **Dataset**: [King County House Sales Dataset (Kaggle)](https://www.kaggle.com/datasets/shivachandel/kc-house-data/data)
+
+### A/B Testing Analysis on E-Commerce Conversion Rates
+- Conducted an A/B test to evaluate the effectiveness of a new webpage compared to the existing page on an e-commerce website.
+- Analyzed conversion rates for control and treatment groups using statistical methods including two-proportion z-test, confidence intervals, power analysis, and sample size calculations.
+- Investigated practical significance by comparing observed differences to the chosen Minimum Detectable Effect (MDE = 0.5%).
+- Provided actionable recommendations based on statistical and business significance regarding whether to implement the new page.
+- **Goal**: To determine if the new webpage increases conversions and to guide data-driven decisions on webpage deployment.
+- **Dataset**: [AB Testing Dataset (Kaggle)] (https://www.kaggle.com/datasets/zhangluyuan/ab-testing/data)
 
 ---
 
 ## 📂 Datasets Used  
 
 1. [Zomato Dataset (Kaggle)](https://www.kaggle.com/datasets/rishikeshkonapure/zomato) – Restaurant data including ratings, cuisines, costs, and locations.  
-2. [King County House Sales Dataset (Kaggle)](https://www.kaggle.com/datasets/shivachandel/kc-house-data/data) – Housing market dataset with 21,000+ records of property sales.  
+2. [King County House Sales Dataset (Kaggle)](https://www.kaggle.com/datasets/shivachandel/kc-house-data/data) – Housing market dataset with 21,000+ records of property sales.
+3. [AB Testing Dataset (Kaggle)] (https://www.kaggle.com/datasets/zhangluyuan/ab-testing/data)
 
 ---
 
