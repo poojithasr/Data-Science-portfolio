@@ -35,7 +35,7 @@ This repository showcases my journey in applying **data analysis, machine learni
 
 1. [Zomato Dataset (Kaggle)](https://www.kaggle.com/datasets/rishikeshkonapure/zomato) – Restaurant data including ratings, cuisines, costs, and locations.  
 2. [King County House Sales Dataset (Kaggle)](https://www.kaggle.com/datasets/shivachandel/kc-house-data/data) – Housing market dataset with 21,000+ records of property sales.
-3. 3. [AB Testing Dataset (Kaggle)](https://www.kaggle.com/datasets/zhangluyuan/ab-testing/data) – E-commerce experiment data including user IDs, group assignments (control/test), conversion flags, and timestamps for conducting A/B tests.
+3. [AB Testing Dataset (Kaggle)](https://www.kaggle.com/datasets/zhangluyuan/ab-testing/data) – E-commerce experiment data including user IDs, group assignments (control/test), conversion flags, and timestamps for conducting A/B tests.
 
 
 ---
@@ -54,12 +54,16 @@ This repository showcases my journey in applying **data analysis, machine learni
 ## 📊 Project Structure  
 datascience-projects/
 │── zomato-eda/
-│ ├── Zomato_EDA.ipynb
-│ └── dataset.csv
+│   ├── Zomato_EDA.ipynb
+│   └── dataset.csv
 │
 │── house-price-prediction/
-│ ├── House_Price_Prediction.ipynb
-│ └── kc_house_data.csv
+│   ├── House_Price_Prediction.ipynb
+│   └── kc_house_data.csv
+│
+│── ab-testing/
+│   ├── AB_Testing_Analysis.ipynb
+│   └── dataset.csv
 │
 └── README.md
 
