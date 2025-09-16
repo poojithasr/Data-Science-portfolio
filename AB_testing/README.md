@@ -35,9 +35,20 @@ A large e-commerce company has a new webpage designed with the intention to incr
 ## Usage
 
 1. Clone the repository:
+   ```bash
+    git clone https://github.com/poojithasr/Data-Science-portfolio.git
+    cd Data-Science-portfolio
+    cd "AB_testing"
 
-```bash
-git clone https://github.com/poojithasr/Data-Science-portfolio.git
-cd Data-Science-portfolio
-cd "AB_testing"
+2. Install required packages:
+   ```bash
+   pip install pandas numpy scipy statsmodels matplotlib seaborn
 
+3. Run the Jupyter notebook (AB_testing.ipynb) to reproduce the analysis and results.
+   ```bash
+   jupyter notebook
+
+References
+Dataset: Kaggle AB Testing Dataset
+Statsmodels Documentation
+A/B Testing Methodology
