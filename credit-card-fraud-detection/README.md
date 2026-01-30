@@ -1,45 +1,45 @@
 Credit-card-fraud-detection/README.md
-## 💳 Credit Card Fraud Detection & Prevention
+# 💳 Credit Card Fraud Detection & Prevention
 
 This project uses a real-world credit card transaction dataset from the western United States to build machine learning models for detecting fraudulent transactions.
 The primary objective is to accurately identify fraud while prioritizing high recall, reflecting a business requirement to minimize missed fraud even if it results in additional false positives.
 
-# 📂 Dataset Overview
+## 📂 Dataset Overview
 
 The dataset contains credit card transactions made by customers in the western United States.
 Each record represents a single transaction, including customer information, merchant details, transaction location, and a fraud label.
 
-Training dataset: fraudTrain.csv
-Test dataset: fraudTest.csv
+1. Training dataset: fraudTrain.csv
+2. Test dataset: fraudTest.csv
 
 The data was sourced from Kaggle and partially cleaned and adapted by DataCamp.
 
-# 📑 Column Descriptions
+## 📑 Column Descriptions
 
-trans_date_trans_time: Date and time of the transaction
-merchant: Merchant name
-category: Merchant category (e.g., grocery_pos, shopping_net)
-amt: Transaction amount
-city: City of the credit card holder
-state: State of the credit card holder
-lat: Latitude of the transaction location
-long: Longitude of the transaction location
-city_pop: Population of the card holder’s city
-job: Job of the credit card holder
-dob: Date of birth of the credit card holder
-trans_num: Unique transaction identifier
-merch_lat: Latitude of the merchant location
-merch_long: Longitude of the merchant location
-is_fraud: Target variable (1 = Fraud, 0 = Legitimate transaction)
+1. trans_date_trans_time: Date and time of the transaction
+2. merchant: Merchant name
+3. category: Merchant category (e.g., grocery_pos, shopping_net)
+4. amt: Transaction amount
+5. city: City of the credit card holder
+6. state: State of the credit card holder
+7. lat: Latitude of the transaction location
+8. long: Longitude of the transaction location
+9. city_pop: Population of the card holder’s city
+10. job: Job of the credit card holder
+11. dob: Date of birth of the credit card holder
+12. trans_num: Unique transaction identifier
+13. merch_lat: Latitude of the merchant location
+14. merch_long: Longitude of the merchant location
+15. is_fraud: Target variable (1 = Fraud, 0 = Legitimate transaction)
 
 # 🎯 Project Goal
 
 Perform Exploratory Data Analysis (EDA) to understand fraud patterns across:
-Transaction amount
-Time of day and day of week
-Merchant category
-Geography and merchant distance
-Customer age and city population
+1. Transaction amount
+2. Time of day and day of week
+3. Merchant category
+4. Geography and merchant distance
+5. Customer age and city population
 
 Engineer meaningful behavioral and contextual features.
 Train and evaluate multiple machine learning models.
@@ -109,17 +109,18 @@ Jupyter Notebook for analysis and modeling
 # 🚀 How to Run
 
 Clone the repository:
-
+```bash
 git clone https://github.com/poojithasr/Data-Science-portfolio.git
 cd Data-Science-portfolio
 cd credit-card-fraud-detection
+```
 
 Install dependencies:
-
+```bash
 pip install -r requirements.txt
+```
 
 Run the notebooks:
-
 jupyter notebook
 
 # 📌 Notes
