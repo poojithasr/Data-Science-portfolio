@@ -32,79 +32,70 @@ The data was sourced from Kaggle and partially cleaned and adapted by DataCamp.
 14. merch_long: Longitude of the merchant location
 15. is_fraud: Target variable (1 = Fraud, 0 = Legitimate transaction)
 
-# 🎯 Project Goal
+## 🎯 Project Goal
 
-Perform Exploratory Data Analysis (EDA) to understand fraud patterns across:
-1. Transaction amount
-2. Time of day and day of week
-3. Merchant category
-4. Geography and merchant distance
-5. Customer age and city population
+1. Perform Exploratory Data Analysis (EDA) to understand fraud patterns across:
+  - Transaction amount
+  - Time of day and day of week
+  - Merchant category
+  - Geography and merchant distance
+  - Customer age and city population
+2. Engineer meaningful behavioral and contextual features.
+3. Train and evaluate multiple machine learning models.
+4. Select a model that maximizes fraud recall while maintaining an acceptable false-positive rate.
+5. Translate model performance into business-relevant insights.
 
-Engineer meaningful behavioral and contextual features.
-Train and evaluate multiple machine learning models.
-Select a model that maximizes fraud recall while maintaining an acceptable false-positive rate.
-Translate model performance into business-relevant insights.
+## 🔍 Exploratory Data Analysis Highlights
 
-# 🔍 Exploratory Data Analysis Highlights
+- Fraud is strongly concentrated during late-night and early-morning hours.
+- Online shopping categories show significantly higher fraud rates.
+- Fraudulent transactions tend to involve larger transaction amounts.
+- Geographic features (state, city population, merchant distance) provide contextual rather than standalone predictive power.
+- Customer age shows a mild U-shaped relationship with fraud risk.
 
-Fraud is strongly concentrated during late-night and early-morning hours.
-Online shopping categories show significantly higher fraud rates.
-Fraudulent transactions tend to involve larger transaction amounts.
-Geographic features (state, city population, merchant distance) provide contextual rather than standalone predictive power.
-Customer age shows a mild U-shaped relationship with fraud risk.
+## ⚙️ Feature Engineering
 
-# ⚙️ Feature Engineering
+1. Created log-transformed features for skewed variables:
+  - Transaction amount
+  - Merchant distance
+  - City population
+2. Extracted temporal features:
+  - Cyclical encoding of hour (sin, cos)
+  - Late-night activity indicator
+  - Weekend indicator
+3. Derived customer age from date of birth.
+4. One-hot encoded merchant category.
+5. Ensured consistent preprocessing for both training and test datasets.
 
-Created log-transformed features for skewed variables:
-Transaction amount
-Merchant distance
-City population
-
-Extracted temporal features:
-Cyclical encoding of hour (sin, cos)
-Late-night activity indicator
-Weekend indicator
-
-Derived customer age from date of birth.
-One-hot encoded merchant category.
-Ensured consistent preprocessing for both training and test datasets.
-
-# 🤖 Models Trained
+## 🤖 Models Trained
 
 Logistic Regression (baseline model)
 Random Forest Classifier
 Gradient Boosting Classifier
 
-Special attention was given to:
-Handling extreme class imbalance
-Threshold tuning to align with business objectives
-Evaluating recall-focused metrics
-
-# 📊 Model Evaluation Metrics
+## 📊 Model Evaluation Metrics
 
 Each model was evaluated using:
-Fraud Recall
-False Positives
-Missed Fraud Cases (False Negatives)
-Precision–Recall AUC (PR-AUC)
+- Fraud Recall
+- False Positives
+- Missed Fraud Cases (False Negatives)
+- Precision–Recall AUC (PR-AUC)
 
-🏆 Final Model Selection
+## 🏆 Final Model Selection
 Gradient Boosting was selected as the final model, achieving:
-98%+ fraud recall on the test dataset
-Very low missed fraud cases
-Comparable false-positive rates to Random Forest
-
+  - 98%+ fraud recall on the test dataset
+  - Very low missed fraud cases
+  - Comparable false-positive rates to Random Forest
 This model best satisfied the requirement to err on the side of caution while maintaining operational feasibility.
 
-# ⚙️ Tech Stack
-Python
-Pandas
-NumP
-Scikit-learn
-Matplotlib
-Seaborn
-Jupyter Notebook for analysis and modeling
+## ⚙️ Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Jupyter Notebook for analysis and modeling
 
 # 🚀 How to Run
 
@@ -121,11 +112,13 @@ pip install -r requirements.txt
 ```
 
 Run the notebooks:
+```bash
 jupyter notebook
+```
 
-# 📌 Notes
+## 📌 Notes
 
-The dataset is highly imbalanced, making accuracy an unreliable metric.
-Recall and business impact were prioritized over precision.
-Threshold tuning plays a critical role in balancing fraud detection and operational cost.
-This project emphasizes real-world tradeoffs and ethical considerations in financial fraud detection.
+- The dataset is highly imbalanced, making accuracy an unreliable metric.
+- Recall and business impact were prioritized over precision.
+- Threshold tuning plays a critical role in balancing fraud detection and operational cost.
+- This project emphasizes real-world tradeoffs and ethical considerations in financial fraud detection.
