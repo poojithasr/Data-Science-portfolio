@@ -45,6 +45,7 @@ This repository showcases my journey in applying **data analysis, machine learni
 1. [Zomato Dataset (Kaggle)](https://www.kaggle.com/datasets/rishikeshkonapure/zomato) – Restaurant data including ratings, cuisines, costs, and locations.  
 2. [King County House Sales Dataset (Kaggle)](https://www.kaggle.com/datasets/shivachandel/kc-house-data/data) – Housing market dataset with 21,000+ records of property sales.
 3. [AB Testing Dataset (Kaggle)](https://www.kaggle.com/datasets/zhangluyuan/ab-testing/data) – E-commerce experiment data including user IDs, group assignments (control/test), conversion flags, and timestamps for conducting A/B tests.
+4. [Credit Card Transactions Dataset (Western United States)](https://www.kaggle.com/datasets/kartik2112/fraud-detection/data) -  Credit card transaction dataset containing legitimate and fraud transactions (train and test datasets)
 
 
 ---
@@ -74,6 +75,11 @@ datascience-projects/
 │   ├── AB_Testing_Analysis.ipynb
 │   └── dataset.csv
 │
+|__ Credit-Card-Fraud/
+|   |__
+|   |__
+|   |__
+|
 └── README.md
 
 
