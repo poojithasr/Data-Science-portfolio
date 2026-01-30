@@ -29,6 +29,15 @@ This repository showcases my journey in applying **data analysis, machine learni
 - **Goal**: To determine if the new webpage increases conversions and to guide data-driven decisions on webpage deployment.
 - **Dataset**: [AB Testing Dataset (Kaggle)] (https://www.kaggle.com/datasets/zhangluyuan/ab-testing/data)
 
+### 4️⃣ Credit Card Fraud Detection & Prevention (Machine Learning) 💳
+- Performed extensive exploratory data analysis (EDA) to uncover fraud patterns across transaction amount, time of day, merchant category, geography, customer age, merchant distance, and city population.
+- Engineered behavioral and contextual features, including log-transformed monetary values, cyclical time encoding, late-night activity indicators, and encoded transaction categories.
+- Addressed extreme class imbalance and evaluated multiple models including Logistic Regression (baseline), Random Forest, and Gradient Boosting.
+- Tuned decision thresholds to prioritize fraud recall in line with business requirements, analyzing tradeoffs between recall, false positives, missed fraud cases, and PR-AUC.
+- Translated model performance into business-focused insights, emphasizing real-world fraud prevention tradeoffs and ethical considerations.
+- **Goal**: To accurately detect fraudulent transactions while minimizing missed fraud in a highly imbalanced, real-world financial dataset.
+- **Dataset**: [Credit Card Transactions Dataset (Western United States)] (https://www.kaggle.com/datasets/kartik2112/fraud-detection/data)
+
 ---
 
 ## 📂 Datasets Used  
